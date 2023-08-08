@@ -1,6 +1,6 @@
 .rodape {
     display: grid;
-    grid-template-rows: repeat(2, 50%);
+    grid-template-rows: 60% 40%;
     grid-template-columns: auto 2fr auto 1fr repeat(3, auto) 1fr auto 1.5fr repeat(2, auto);
     align-items: center;
     column-gap: 0.5rem;        
@@ -29,4 +29,8 @@
 
 .rodape__botao--volume-down {
     justify-self: end;
+}
+
+.rodape__botao--voltar, .rodape__botao--anterior, .rodape__botao--avancar, .rodape__botao--proximo{
+margin-bottom: 5px;
 }
